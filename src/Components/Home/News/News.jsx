@@ -17,7 +17,7 @@ const News = () => {
 
 
     if (isLoading) return <>
-        <div className=" max-w-7xl mx-auto grid grid-cols-3 gap-4">
+        <div className=" max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4">
             {[...Array(20)].map((_, idx) => <NewsCardSkeleton key={idx}></NewsCardSkeleton> )  } 
        </div>
     </>
@@ -25,7 +25,7 @@ const News = () => {
         <div className="max-w-7xl mx-auto px-4 py-10">
             
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 {
                  news.map(item => <NewsCard key={item.id} news={item} ></NewsCard>)
                 }

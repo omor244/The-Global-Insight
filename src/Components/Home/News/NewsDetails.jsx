@@ -17,13 +17,13 @@ const NewsDetails = () => {
         }
     });
 
-    console.log(newsDetails, id)
+
 
     if (isLoading) return <NewsCardSkeleton></NewsCardSkeleton>
 
     const singleNews = [...newsDetails].find(s => s.id == id) || {}
 
-    console.log(singleNews)
+  
     return (
         <div className="bg-white min-h-screen pb-20">
 

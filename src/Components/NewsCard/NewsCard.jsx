@@ -10,7 +10,7 @@ const NewsCard = ({ news }) => {
                 <img
                     src={news.image}
                     alt={news.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full object-cover aspect-video  transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-4 left-4">
                     <span className="bg-blue-600/90 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1.5 rounded-lg uppercase tracking-widest shadow-lg">
