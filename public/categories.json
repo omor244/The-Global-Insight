@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Home",
+        "path": "/"
+    },
+    {
+        "name": "National",
+        "path": "/national"
+    },
+    {
+        "name": "International",
+        "path": "/international"
+    },
+    {
+        "name": "Sports",
+        "path": "/sports"
+    },
+    {
+        "name": "Technology",
+        "path": "/technology"
+    },
+    {
+        "name": "Business",
+        "path": "/business"
+    }
+]

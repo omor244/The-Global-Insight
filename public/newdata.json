@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "The Future of Artificial Intelligence: What to Expect in 2026",
+        "category": "Technology",
+        "description": "AI is evolving faster than ever. Discover the trends that will reshape our world in the coming decade.",
+        "content": "As we enter 2026, Artificial Intelligence has moved beyond simple chatbots. We are now seeing the rise of AGI (Artificial General Intelligence) precursors that can reason across multiple domains. From autonomous healthcare diagnostics to AI-driven sustainable energy grids, the landscape of human industry is shifting. Experts predict that by the end of this year, AI integration will be a standard in 90% of enterprise workflows.",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop",
+        "date": "Jan 2, 2026",
+        "isFeatured": true,
+        "author": "Alex Rivera"
+    },
+    {
+        "id": 2,
+        "title": "Global Markets Hit All-Time High Amid Tech Surge",
+        "category": "Business",
+        "description": "Stock markets across the globe are reaching record levels as technology sectors continue to boom.",
+        "content": "The global financial markets have seen an unprecedented rally this quarter. Led by the 'Magnificent Seven' and a surge in semi-conductor stocks, the S&P 500 and Nasdaq have broken previous records. Investors are optimistic as inflation cools down and central banks hint at further rate cuts. However, some analysts warn of a potential bubble in AI-related stocks if earnings don't match the high valuation expectations.",
+        "image": "https://i.ibb.co.com/cK92fzCj/cq5dam-web-1280-1280.jpg",
+        "date": "Jan 2, 2026",
+        "isFeatured": false,
+        "author": "Sarah Jenkins"
+    },
+    {
+        "id": 3,
+        "title": "SpaceX Mars Mission: First Human Colony Prototype Ready",
+        "category": "Science",
+        "description": "The dream of becoming a multi-planetary species is closer than ever with the new Mars habitat reveal.",
+        "content": "SpaceX has officially unveiled the 'Star-Habitat 1,' a self-sustaining pressurized unit designed for the Martian environment. This prototype includes advanced radiation shielding and a closed-loop life support system that recycles 99% of its water. The mission, slated for late 2026, aims to send the first crew of robotic builders followed by human explorers. This marks the most significant step in human history toward planetary expansion.",
+        "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop",
+        "date": "Jan 2, 2026",
+        "isFeatured": false,
+        "author": "Dr. James Carter"
+    },
+    {
+        "id": 4,
+        "title": "Olympic Games 2026: Innovations in Athlete Training Tech",
+        "category": "Sports",
+        "description": "New wearable sensors and AI analytics are changing how athletes prepare for the upcoming global event.",
+        "content": "Technology has become the silent partner for every elite athlete preparing for the 2026 Winter Olympics. New bio-metric suits can now track muscle fatigue in real-time, preventing injuries before they happen. Coaches are using VR (Virtual Reality) to simulate track conditions months in advance. These innovations are expected to lead to multiple world records being broken this year, as the gap between human potential and technological support narrows.",
+        "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1200&auto=format&fit=crop",
+        "date": "Jan 2, 2026",
+        "isFeatured": false,
+        "author": "Michael Owens"
+    }
+]
