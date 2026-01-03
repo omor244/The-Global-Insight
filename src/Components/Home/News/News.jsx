@@ -6,7 +6,7 @@ import { Context } from "../../../Contex/Provider";
 import { use } from "react";
 
 const News = () => {
-     const { searchQuery, setSearchQuery } = use(Context);
+     const { searchQuery } = use(Context);
     const { data: news = [], isLoading } = useQuery({
         queryKey: ['AllNews'],
         queryFn: async () => {
