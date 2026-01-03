@@ -11,13 +11,13 @@ const NewsDetails = () => {
     const { data: newsDetails = [], isLoading } = useQuery({
         queryKey: ["newsDetails"],
         queryFn: async () => {
-            const res = await axios('/public/AllNews.json');
+            const res = await axios('/AllNews.json');
 
             return res.data
         }
     });
 
-
+console.log(newsDetails)
 
     if (isLoading) return <NewsCardSkeleton></NewsCardSkeleton>
 

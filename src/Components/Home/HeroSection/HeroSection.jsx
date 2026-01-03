@@ -62,7 +62,7 @@ const Banner = () => {
 
                     {/* Bottom Row Two Columns (SideNews[1] and SideNews[2]) */}
                     <div className="grid grid-cols-2 gap-4">
-                        {sideNews.slice(1, 3).map((item) => (
+                        {sideNews.slice(1, 3)?.map((item) => (
                             <Link
                                 to={`Details/${item.id}`}
                                 key={item.id}

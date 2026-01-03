@@ -7,6 +7,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import Provider from './Contex/Provider';
 
 
 
@@ -15,8 +16,11 @@ import {
 const queryClient = new QueryClient()
 createRoot(document.getElementById('root')).render(
   <QueryClientProvider client={queryClient}>
+    <Provider>
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
+      
+  </Provider>
   </QueryClientProvider>
 )
