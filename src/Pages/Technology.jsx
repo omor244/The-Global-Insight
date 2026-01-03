@@ -12,7 +12,7 @@ const Technology = () => {
     const { data: national = [], isLoading } = useQuery({
         queryKey: ["nationalItem"],
         queryFn: async () => {
-            const res = await axios('/public/AllNews.json')
+            const res = await axios('/AllNews.json')
 
             return res.data
         },

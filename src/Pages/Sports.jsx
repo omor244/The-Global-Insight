@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
-import React from 'react';
+
 import NewsCard from '../Components/NewsCard/NewsCard';
 
 const Sports = () => {
@@ -12,7 +12,7 @@ const Sports = () => {
     const { data: national = [], isLoading } = useQuery({
         queryKey: ["nationalItem"],
         queryFn: async () => {
-            const res = await axios('/public/AllNews.json')
+            const res = await axios('/AllNews.json')
 
             return res.data
         },
